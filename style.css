@@ -1,8 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
 
+/*------------
+  UTILITIES
+------------*/
+
 * {
   font-family: 'mulish', sans-serif;
 }
 
-.navbar {
+.details {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  color:#7D7987;
+}
+
+.cta {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  color: white;
+  background-color: #458FF6;
+  text-decoration: none;
+  padding: 15px 40px;
+  border: 2px solid #458FF6;
+  border-radius: 50px;
+  margin-top: 45px;
+}
+
+.cta:hover {
+  color: #458FF6;
+  background-color: white;
+}
+
+/*--------------
+  HERO SECTION
+--------------*/
+
+.hero-section {
+  margin-top: 80px;
+  /* position: relative; */
+}
+
+.hero-banner img {
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+
+.hero-element {
+  position: absolute;
+  left: 0;
 }
