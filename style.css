@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
 
-/*------------
-  UTILITIES
-------------*/
+/* UTILITIES */
 
 * {
   font-family: 'mulish', sans-serif;
@@ -33,9 +31,11 @@
   background-color: white;
 }
 
-/*--------------
-  HERO SECTION
---------------*/
+.line {
+  margin-bottom: 15px;
+}
+
+/* HERO SECTION */
 
 .hero-section {
   margin-top: 80px;
@@ -64,9 +64,7 @@
   left: 0;
 }
 
-/*-----------------
-  SERVICE SECTION
------------------*/
+/* SERVICE SECTION */
 
 .service-section {
   position: relative;
@@ -80,10 +78,6 @@
 
 .service-head {
   margin-bottom: 80px;
-}
-
-.service-head img {
-  margin-bottom: 15px;
 }
 
 .service-title-main {
@@ -126,12 +120,27 @@
   top: 50%;
 }
 
-.row {
-  margin-bottom: 70px;
+/* CTA BANNER SECTION */
+
+.cta-banner {
+  margin-top: 150px;
+}
+
+.cta-banner-title {
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.cta-banner-image {
+  width: 80%;
+}
+
+.banner {
+  margin-bottom: 150px;
 }
 
 
-
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 576px) {
   .service-element {
