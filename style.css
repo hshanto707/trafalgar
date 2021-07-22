@@ -93,6 +93,7 @@
 }
 
 .service-body {
+  text-align: center;
   position: relative;
   z-index: 2;
 }
@@ -115,9 +116,18 @@
   height: 100px;
 }
 
-
 .service-title {
   margin: 10px 0;
+}
+
+.service-body-element {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.row {
+  margin-bottom: 70px;
 }
 
 
