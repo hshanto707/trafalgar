@@ -151,6 +151,7 @@
 .slide {
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2);
   border-radius: 10px;
+  position: relative;
 }
 
 .review-head {
@@ -173,6 +174,15 @@
   border-radius: 10px;
 }
 
+.review-element-top {
+  position: absolute;
+  right: 0;
+}
+
+.review-element-bottom {
+  position: absolute;
+  bottom: 0;
+}
 
 
 
