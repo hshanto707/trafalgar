@@ -124,6 +124,7 @@
 
 .cta-banner {
   margin-top: 150px;
+  position: relative;
 }
 
 .cta-banner-title {
@@ -139,11 +140,63 @@
   margin-bottom: 150px;
 }
 
+.cta-banner-element {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+/* REVIEW SECTION */
+
+.slide {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2);
+  border-radius: 10px;
+}
+
+.review-head {
+  margin-bottom: 40px;
+}
+
+.quote {
+  color: white;
+}
+
+.quote::before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: white;
+  margin-right: 10px;
+}
+
+.review-image {
+  border-radius: 10px;
+}
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 576px) {
   .service-element {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .testimonial{
+      margin: 0 10px;
+  }
+  .testimonial .pic{
+      float: none;
+      width: 50%;
+      margin: 0 auto;
+  }
+  .owl-theme .owl-controls{
+      top: -30px;
+      right: 0;
   }
 }
