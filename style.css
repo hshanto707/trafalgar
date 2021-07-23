@@ -225,8 +225,30 @@
   right: 0;
 }
 
+/* FOOTER SECTION */
 
+footer {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2);
+  margin-top: 150px;
+  padding: 100px 0;
+  position: relative;
+}
 
+.footer-element-top {
+  position: absolute;
+  right: 0;
+}
+
+.footer-element-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
 
 
 
