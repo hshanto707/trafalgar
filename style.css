@@ -184,6 +184,48 @@
   bottom: 0;
 }
 
+/* ARTICLE SECTION */
+
+.article-title {
+  font-size: 36px;
+  line-height: 56px;
+  margin: 150px 0 80px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #458FF6;
+}
+
+.read-more::after {
+  content: "\f061";
+  font-family: "FontAwesome";
+  color: #458FF6;
+  margin-left: 10px;
+}
+
+.cards {
+  position: relative;
+}
+
+.cards-element-dotted {
+  position: absolute;
+  left: -50px;
+}
+
+.container-fluid {
+  position: relative;
+}
+
+.cards-element-curved {
+  width: 30rem;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
 
 
 
